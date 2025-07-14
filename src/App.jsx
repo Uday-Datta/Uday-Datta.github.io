@@ -1,7 +1,18 @@
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Toaster } from "@/components/ui/toaster";
+
 const App = () => {
   return (
     <>
-      <h1 className="text-4xl underline text-blue-600">Hello Tailwind</h1>
+      <Toaster />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/notfound" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };
