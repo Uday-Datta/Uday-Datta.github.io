@@ -23,11 +23,13 @@ const Home = () => {
       <Navbar />
 
       {/*Main Content */}
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
 
       {/*Footer */}
       <Footer />

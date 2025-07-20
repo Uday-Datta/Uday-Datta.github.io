@@ -22,12 +22,11 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
+    title: "Wordpress Medical/ Dentist website ",
+    description: "Full-featured dentist appointment booking platform",
+    image: "/projects/dentool.png",
     tags: ["HTML", "CSS", "Bootstrap 5"],
-    demoUrl: "https://uday-datta.github.io/Lamode-Frontend/",
+    demoUrl: "https://dentool001.netlify.app/",
     githubUrl: "https://github.com/Uday-Datta",
   },
 ];

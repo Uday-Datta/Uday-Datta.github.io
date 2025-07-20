@@ -31,7 +31,7 @@ export const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a
-          className="text-xl font-bold text-primary flex items-center"
+          className="text-2xl font-bold text-primary flex items-center"
           href="#hero"
         >
           <span className="relative z-10">
@@ -45,7 +45,7 @@ export const Navbar = () => {
             <a
               key={key}
               href={item.href}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              className="text-sm font-bold text-foreground/80 hover:text-primary transition-colors duration-300"
             >
               {item.name}
             </a>
