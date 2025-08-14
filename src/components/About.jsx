@@ -38,8 +38,8 @@ export const About = () => {
               </a>
 
               <a
-                href="/public/uday-cv.pdf"
-                download="Uday-CV.pdf"
+                href="/public/uday_cv_v3.0.1.pdf"
+                download="uday_datta_resume.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
