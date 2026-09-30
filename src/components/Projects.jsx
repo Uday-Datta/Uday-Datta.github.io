@@ -3,6 +3,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Modern E-commerce Platform",
+    description: "Full-featured e-commerce platform",
+    image: "/projects/e-commerce.png",
+    tags: ["React", "Tailwind", "node js", "postgresql"],
+    demoUrl: "https://gkmart.vercel.app",
+    githubUrl: "https://github.com/Uday-Datta",
+  },
+  {
+    id: 2,
     title: "Gym HTML CSS Template",
     description: "A beautiful landing page app using HTML and CSS",
     image: "/projects/project1.jpg",
@@ -11,7 +20,7 @@ const projects = [
     githubUrl: "https://github.com/Uday-Datta",
   },
   {
-    id: 2,
+    id: 3,
     title: "Simple HTML CSS landing Page Portfolio",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
@@ -21,21 +30,12 @@ const projects = [
     githubUrl: "https://github.com/Uday-Datta",
   },
   {
-    id: 3,
+    id: 4,
     title: "Wordpress Medical/ Dentist website ",
     description: "Full-featured dentist appointment booking platform",
     image: "/projects/dentool.png",
     tags: ["HTML", "CSS", "Bootstrap 5"],
     demoUrl: "https://dentool001.netlify.app/",
-    githubUrl: "https://github.com/Uday-Datta",
-  },
-  {
-    id: 4,
-    title: "Modern E-commerce Platform",
-    description: "Full-featured e-commerce platform",
-    image: "/projects/",
-    tags: ["React", "Tailwind", "node js", "postgresql"],
-    demoUrl: "https://gkmart.vercel.app",
     githubUrl: "https://github.com/Uday-Datta",
   },
 ];
