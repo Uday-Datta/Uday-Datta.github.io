@@ -20,7 +20,7 @@ const projects = [
     githubUrl: "https://github.com/Uday-Datta",
   },
   {
-    id: 2,
+    id: 3,
     title: "Gym HTML CSS Template",
     description: "A beautiful landing page app using HTML and CSS",
     image: "/projects/project1.jpg",
@@ -29,7 +29,7 @@ const projects = [
     githubUrl: "https://github.com/Uday-Datta",
   },
   {
-    id: 3,
+    id: 4,
     title: "Simple HTML CSS landing Page Portfolio",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
@@ -39,7 +39,7 @@ const projects = [
     githubUrl: "https://github.com/Uday-Datta",
   },
   {
-    id: 4,
+    id: 5,
     title: "Wordpress Medical/ Dentist website ",
     description: "Full-featured dentist appointment booking platform",
     image: "/projects/dentool.png",
