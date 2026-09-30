@@ -12,6 +12,15 @@ const projects = [
   },
   {
     id: 2,
+    title: "Digital Agency",
+    description: "Digital solutions for business",
+    image: "/projects/kroysoft.png",
+    tags: ["React", "Tailwind", "node js", "postgresql"],
+    demoUrl: "https://kroysoft.vercel.app",
+    githubUrl: "https://github.com/Uday-Datta",
+  },
+  {
+    id: 2,
     title: "Gym HTML CSS Template",
     description: "A beautiful landing page app using HTML and CSS",
     image: "/projects/project1.jpg",
