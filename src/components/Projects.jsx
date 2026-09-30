@@ -29,6 +29,15 @@ const projects = [
     demoUrl: "https://dentool001.netlify.app/",
     githubUrl: "https://github.com/Uday-Datta",
   },
+  {
+    id: 4,
+    title: "Modern E-commerce Platform",
+    description: "Full-featured e-commerce platform",
+    image: "/projects/",
+    tags: ["React", "Tailwind", "node js", "postgresql"],
+    demoUrl: "https://gkmart.vercel.app",
+    githubUrl: "https://github.com/Uday-Datta",
+  },
 ];
 
 export const Projects = () => {
